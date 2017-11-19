@@ -2,6 +2,8 @@
 
 This is a simple command line utility to launch PuTTY with a selected serial port configuration.
 
+![alt text](\images\puttycomlauncher-screenshot.png "Logo Title Text 1")
+
 ## To use
 
 From a PowerShell prompt, enter
