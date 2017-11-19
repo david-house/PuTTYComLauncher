@@ -1,8 +1,8 @@
 # PuTTYComLauncher
 
-This is a simple command line utility to launch PuTTY with a selected serial port configuration.
+This is a simple PowerShell command line utility to launch PuTTY with a selected serial port configuration.
 
-![alt text](\images\puttycomlauncher-screenshot.png "Logo Title Text 1")
+![alt text](https://github.com/david-house/PuTTYComLauncher/raw/master/images/puttycomlauncher-screenshot.png "Screenshot")
 
 ## To use
 
@@ -15,3 +15,6 @@ To launch PuTTY as a serial console with the displayed configuration press a cor
 
 ## Behind the scenes
 This script looks for any WMI object with a name like "(COM#)". If it finds one, it adds it to the menu. The list of port configurations is an array at the top of the script block. You can add any valid arrangement and change the order to suit your needs.
+
+Note this has only been tested with a few devices on Windows 10 with PowerShell 5.1
+
